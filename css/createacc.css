@@ -1,0 +1,56 @@
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+
+}
+body{
+    width: 25%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 25px;
+    box-sizing: border-box;
+   
+}
+#back{
+    color: #ff3399;
+    font-size: larger;
+    height: 20px;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+select,input{
+    border: none;
+    height: 90%;
+}
+input:focus,select:focus{
+    outline: none;
+}
+#names{
+    width: 75% ;
+    
+}
+input{
+    width: 95%;
+}
+
+#all>div{
+    border: 1px solid black;
+    height: 40px;
+}
+button{
+    background-color: #ff3399;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: larger;
+    width: 100%;
+    height: 40px;
+    
+}
+button:hover{
+    cursor: pointer;
+}

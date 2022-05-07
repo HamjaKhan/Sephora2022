@@ -1,0 +1,75 @@
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color: transparent;
+    opacity: 100%;
+    background: rgba(76, 175, 80, 0.3);
+    
+}
+body>div{
+    background-color: white !important;
+    width: 25%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+   
+}
+#close{
+    display: flex;
+    justify-content: flex-end;
+}
+#close:hover{
+    color: red;
+    cursor: pointer;
+}
+h1+div{
+    text-align: left;
+    
+}
+h1+div>input,h1+div>button{
+    width: 90%;
+    height: 50px;
+    font-size: larg;
+    font-weight: bolder;
+
+}
+h1+div>button{
+    background-color: #ff3399;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+h1+div>button:hover{
+    cursor: pointer;
+}
+#continue>div{
+    margin-top: 20px;
+    width: 90%;
+    height: 50px;  
+    padding: 15px;
+    box-sizing: border-box; 
+          
+}
+#continue>div:hover{
+    cursor: pointer;
+}
+#continue>div:first-child{
+    background-color: #4285f4;
+}
+#continue>div:last-child{
+    background-color: #3b5998;
+    margin-bottom: 30px;   
+    
+}
+a{
+    cursor: pointer;
+    color: #ff3399;
+}
+

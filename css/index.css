@@ -1,0 +1,449 @@
+     *{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+
+    }
+    #navbar{
+        height: 40px;
+        width: 100%;
+        background-color: #f3f3f3;
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;  
+    }
+    #navbar>a{
+        text-decoration: none;
+        color: black;        
+    }
+    #navbar>div:hover,#navbar>button:hover,#navbar>i:hover,#navbar>p:hover,#navbar>p>i:hover{
+        cursor: pointer;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        background-color: white;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        background-color: #b3b1b1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      .closebtn:hover{
+          background-color: white !important;
+          color: red;
+
+      }
+    
+    #navbar>button{
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+    #imgnavbar>a>img{
+        height: 50px;       
+    }
+    #imgnavbar~i{
+        color: rgb(252, 109, 135);
+        
+    }
+    #stars{
+        color: red;
+        margin-left: 150px; 
+        margin-right: 200px; 
+        display: flex;
+        align-items: center;       
+    }
+    #stars>p{
+        color: black;
+    }
+    
+    #navbar2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        position: sticky;
+        top: -25px;
+        background-color: white;
+        z-index: 2;
+    }
+    #navbar2>div>u>input{
+        font-size:larger ;
+        border: none;
+        margin-bottom: 2px;
+        outline: none;
+        text-decoration: underline;
+    }
+    #navbar2>div>h1>a{
+        text-decoration: none;
+        color: black;        
+    }
+    #useracces{
+        display: none;
+        margin-left: 15px;
+    }
+    #useraccesdata{
+        display: none;
+    }
+   
+    #useracces:hover #useraccesdata{
+        display: block;
+        color: black;
+        z-index: 5;
+    }
+    #navbar2>div{
+        display: flex;
+    }
+    
+    #navbar2>div:hover{
+        cursor: pointer;
+    }
+    #navbar2>div>a{
+        text-decoration: none;
+        color: black;
+    }
+
+    
+    #menubar{
+        display: flex;
+        justify-content: space-around;
+        font-weight: bolder;
+        position: relative;        
+        position: sticky;
+        top: 40px;
+        background-color: white;
+        z-index: 2;        
+        
+    }
+    #menubar>div:hover{
+        color: rgb(248, 86, 115);
+        
+    }
+    .menus:hover{
+        cursor: pointer;
+    }
+    ul{
+        list-style-type: none;
+        
+    }
+    .dropdownmenubar {
+        display: inline-block;  
+        
+    }
+    .dropdownmenubarcont {
+        display: none;
+        position: absolute;
+        left: 0px;
+        right: 10px;
+        width: 100%;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;       
+    }
+    .dropdownmenubarcont>div{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+    }
+    .dropdownmenubarcont>div>div>h5:hover,.dropdownmenubarcont>div>div>ul>li:hover{
+        color:rgb(248, 86, 115);
+        cursor: pointer;
+        
+    }
+    .dropdownmenubar:hover .dropdownmenubarcont {
+        display: block;
+        position: absolute;
+        top: 25px;
+        margin: auto;     
+        background-color: white; 
+        color: black;            
+    }
+    h5{
+        font-size: large;
+        font-weight:bolder;
+    }
+    #slidingimage{
+        width: 100%;
+    }
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;      
+    }
+    .slideshow-container:hover{
+        cursor: pointer;
+    }
+
+
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover, .next:hover {
+        color: rgba(0,0,0,0.8);
+    }
+
+    .dot {
+        cursor: pointer;
+        height: 10px;
+        width: 10px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+    #deals{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 90px;
+    }
+    #deals>div{
+        border: 1px solid black;
+        width: 15%;
+        text-align: center;
+        height: 50px;
+        padding: 1em 0 1em 0;
+        box-sizing: content-box;
+        background-color: black;
+        color: white;
+        font-weight: bolder;
+    }
+    #deals>div:hover{
+        cursor: pointer;
+    }
+    #deals+img{
+        height: 70px;
+        width: 1000px;
+        margin-left: 200px;
+    }
+    #deals+img+img{
+        width: 90%;
+        margin-left:80px;
+    }
+    #deals+img+img:hover{
+        cursor: pointer;
+    }
+    #category{
+        display: flex;
+        width: 100%;
+        gap: 15px;
+        padding: 55px;
+        box-sizing: border-box;
+        
+    }
+    #category>div>img{
+        width: 300px;
+    }
+    #category>div>img:hover{
+        cursor: pointer;
+    }
+    #category+img{
+        width: 1250px;
+
+    }
+    #justlanded{
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    #justlanded>div{
+        width: 40%;
+        margin: 20px;
+    }
+    #justlanded>div>div{
+        display: flex;
+    }
+    #justlanded>div>div>div>div{
+        text-align: center;        
+    }
+    
+    #images{
+        width: 90%;
+        margin: auto;
+    }
+    #images1:hover{
+        cursor: pointer;
+    }
+    #images>img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #images+div{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+    }
+    #images+div>div>img{
+        width: 90%;
+    }
+    #images+div>div>img:hover{
+        cursor: pointer;
+    }
+    #onsale{
+        display: flex;
+        flex-direction: column;
+    }
+    #onsale>img
+    {
+        width: 100%;       
+    }
+    #favbrand{
+        width: 100%;
+        display: flex;
+    }
+    #favbrand>div>img{
+        width: 80%;
+    }
+    #favbrand>div>img:hover{
+        cursor: pointer;
+    }
+    #favbrand+div>img,#mygrids+div>img{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    #mygrids,#diaries{
+        margin: auto;
+        display: grid !important;
+        grid-template-columns: repeat(3,1fr) ;
+
+    }
+    #mygrids>div>img,#diaries>div>img{
+        width: 95%;
+        margin: auto;
+    }
+    #mygrids>div>img:hover,#diaries>div>img:hover,#backtop:hover{
+        cursor: pointer;
+    }
+    #backtop{
+        
+        padding: 10px;
+    }
+
+    #backtop>h3{
+        margin: auto;
+        width: 150px;
+        height: 40px;
+        background-color: #abc72c;
+        
+    }
+    #backtop>h3>a{
+        text-decoration: none;
+        color: black;
+    }
+    #backtop+div{
+        display: block;
+        padding: 10px;
+        background-color: #f2f2f2;
+        text-align: center;
+        font-weight: bolder;
+    }
+    #backtop+div>input{
+        width: 30%;
+        height: 40px;
+        border: none;
+        
+    }
+    #backtop+div>button{
+        width: 15%;
+        height: 40px;
+        background-color: black;
+        color: white;
+    }
+    #backtop+div>button:hover{
+        cursor: pointer;
+    }
+    #bottom{
+        display: block;
+        flex-direction: column;
+        text-align: center;
+    }
+    #bottom h6,h5{
+        line-height: 0.5px;
+    }
+    #bottom~div{
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        
+    }
+    #bottom~div>div>a,#bottom~div>div>h3{
+        color: black;
+        text-decoration: none;
+    }
+    #bottom~div>div:hover,#bottom~div>div>a:hover,#bottom~div>div>h3:hover{
+        color: rgb(250, 123, 144) ;
+        cursor: pointer;
+    }
+    span{
+        text-align: center;
+    }
+    span>p:nth-child(n):hover{
+        color: rgb(250, 123, 144);
+        cursor: pointer;
+    }
+
+
+
+    
+      

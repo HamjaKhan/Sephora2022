@@ -1,0 +1,20 @@
+div{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+img{
+    width: 80%;
+}
+button{
+    margin-top: 100px;
+    width: 60%;
+    height: 40px;
+    background-color: #35b729;
+    border: none;
+    font-size: larger;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
